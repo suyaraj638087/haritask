@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+   
+}
+.conh{
+    text-align: center;
+}
+.conh h5{
+    padding-top:3rem;
+    color:orange;
+    text-shadow: 2px 5px  10px  orange;
+}
+.conh h1{
+    padding-top:10px;
+}
+.row{
+    display:flex;
+
+}
+.card1{
+    padding-top:1rem;
+    
+}
+.col{
+    width:33.3%;
+    padding:10px;
+}
+.image{
+    padding-top:3rem;
+}
+.image img{
+    width:70%;
+    padding-left: 6rem;
+}
+.hp{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.hp h6{
+    padding-top:0.5rem;
+    color:orange;
+}
+.card{
+    box-shadow: 0 0 20px -11px grey;
+    border-radius:11px;
+   
+}
+.icon{
+    display:flex;
+}
+.holecard{
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin:0px 30px;
+}
+.ipp{
+    display:flex;
+    justify-content: space-around;
+}
+.button{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+.button a{
+    text-decoration: none;
+    background-color: yellow;
+    padding:10px 40px;
+    border-radius: 90px;
+}
+
+@media(min-width:320px){
+    .container{
+        width:100%;
+       
+       
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+    
+    }
+    .col{
+        width:100%;
+        
+    }
+}
+@media(min-width:720px){
+    .container{
+        width:80%;
+        margin:0 auto;
+       
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+    
+    }
+    .col{
+        width:50%;
+       margin:0 auto;
+    }
+}
+@media(min-width:1020px){
+    .container{
+        width:80%;
+        margin:0 auto;
+       
+    }
+    .row{
+        display:flex;
+    
+    }
+    .col{
+        width:33.3%;
+        padding:10px;
+    }
+}
